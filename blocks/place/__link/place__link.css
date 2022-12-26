@@ -1,0 +1,8 @@
+.place__link{
+    color: white;
+    transition: 0.1s;
+    margin-top: 15px;
+}
+.place__link:hover {
+    opacity: 50%;
+}

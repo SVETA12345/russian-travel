@@ -1,0 +1,25 @@
+.lead__main-illustration{
+    height: 615px;
+    object-fit: cover;
+}
+@media (max-width: 1279px){
+    .lead__main-illustration{
+      height: 580px;
+    }  
+  }
+@media (max-width: 1023px){
+    .lead__main-illustration{
+      height: 480px;
+      object-fit: contain;
+    }  
+  }
+@media (max-width: 767px){
+    .lead__main-illustration{
+        height: 288px;
+    }  
+}
+@media (max-width: 767px){
+    .lead__main-illustration{
+        height: 200px;
+    }  
+}

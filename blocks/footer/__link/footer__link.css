@@ -1,0 +1,25 @@
+.footer__link{
+    text-decoration: none;
+    color: white;
+    margin-right: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer__link:hover {
+    opacity: 50%;
+}
+.footer__link:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 767px){
+    .footer__link{
+        margin-bottom: 32px;
+    }  
+    .footer__link:last-child{
+        margin-bottom: 48px;
+    }
+  }
