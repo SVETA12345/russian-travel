@@ -1,10 +1,16 @@
 .footer{
     display: flex;
-    width: 91%;
+    max-width: 91%;
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 92px;
     margin-bottom: 24px;
+}
+
+@media (max-width: 1023px){
+  .footer{
+    max-width: 720px;
+  }  
 }
 
 @media (max-width: 767px){

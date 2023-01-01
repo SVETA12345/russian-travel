@@ -13,6 +13,12 @@
     }
 }
 
+@media (max-width: 1023px){
+    .places{
+        max-width: 720px;
+    }
+}
+
 @media (max-width: 767px){
     .places{
         margin-top: 64px;

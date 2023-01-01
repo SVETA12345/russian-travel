@@ -5,20 +5,19 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    width: 560px;
+    max-width: 560px;
     color: white;
     z-index: 1;
     margin: 0;
     margin-bottom: 32px;
+    font-style: normal;
 }
 
 @media (max-width: 767px){
     .cover__title{
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        width: 250px;
+        max-width: 250px;
         margin-bottom: 16px;
     }  
   }
