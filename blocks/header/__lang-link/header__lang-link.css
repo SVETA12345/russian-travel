@@ -6,6 +6,7 @@
   display: flex;
   align-items: flex-end;
   text-decoration: none;
+  margin-right: 18px;
 }
 
 .header__lang-link:hover {

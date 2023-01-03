@@ -3,7 +3,7 @@
     padding-top: 28px;
     display: flex;
     max-width: 91%;
-    max-height: 52px;
+    min-height: 52px;
     justify-content: space-between;
 }
 

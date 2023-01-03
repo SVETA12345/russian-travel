@@ -1,8 +1,7 @@
 .logo{
-    background: url(../../../images/header-logo.svg);
+    background: url(../../images/header-logo.svg);
     height: 52px;
     width: 176px;
-    align-items: flex-start;
 }
 @media (max-width: 424px){
     .logo{
